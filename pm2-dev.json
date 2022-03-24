@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "guard-robot-dev",
+      "script": "./dist/index.js",
+      "args": [],
+      "watch": ["dist"],
+      "ignore_watch": ["test"],
+      "node_args": "--harmony",
+      "merge_logs": true,
+      "cwd": "./",
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    }
+  ]
+}
